@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "noEmitOnError": true,
+        "module": "ESNext",
+        "target": "ES2017",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "paths": {
+            "@/*": ["./scripts/*"],
+        }
+    },
+    "include": ["**/*"],
+    "exclude": ["node_modules"]
+}
