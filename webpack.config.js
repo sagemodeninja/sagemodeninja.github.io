@@ -1,5 +1,6 @@
 const path = require('path')
 const entries = require('./auto-entry')
+const { create } = require('./sass-alias')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = (_, {mode}) => {
@@ -10,6 +11,7 @@ module.exports = (_, {mode}) => {
         output: {
             path: path.resolve(__dirname, 'build'),
             filename: 'scripts/[name].js',
+            publicPath: '/',
             clean: true
         },
         plugins: [
@@ -30,7 +32,35 @@ module.exports = (_, {mode}) => {
                     use: [
                         MiniCssExtractPlugin.loader,
                         'css-loader',
+                        {
+                            loader: 'sass-loader',
+                            options: {
+                                sassOptions: {
+                                    importer: create({
+                                        '@styles': path.resolve(__dirname, 'styles')
+                                    })
+                                }
+                            }
+                        }
                     ],
+                },
+                {
+                    test: /\.html$/,
+                    use: ['html-loader']
+                },
+                {
+                    test: /\.(?:woff|woff2|eot|ttf|otf)$/,
+                    type: 'asset/resource',
+                    generator: {
+                        filename: 'fonts/[hash][ext]'
+                    }
+                },
+                {
+                    test: /\.(?:svg|webp|jpg|jpeg|png|gif|bmp|ico|avif)$/,
+                    type: 'asset/resource',
+                    generator: {
+                        filename: 'images/[hash][ext]'
+                    }
                 },
             ]
         },
@@ -38,6 +68,7 @@ module.exports = (_, {mode}) => {
             extensions: ['.ts', '.js', '.scss'],
             alias: {
                 '@': path.resolve(__dirname, 'scripts'),
+                '@static': path.resolve(__dirname, 'static'),
             }
         },
         devServer: {

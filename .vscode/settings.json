@@ -3,4 +3,7 @@
     "explorer.fileNesting.patterns": {
         "*.html": "${basename}.ts,${basename}.scss"
     },
+    "files.exclude": {
+        "**/node_modules": true
+    },
 }
