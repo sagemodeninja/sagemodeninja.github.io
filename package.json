@@ -1,11 +1,11 @@
 {
   "name": "sagemodeninja.github.io",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Gary Antier's personal website.",
   "scripts": {
-    "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production",
-    "dev": "webpack serve --mode=development"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -17,17 +17,12 @@
   },
   "homepage": "https://gary.antierfamily.com",
   "devDependencies": {
-    "css-loader": "^7.1.2",
-    "html-loader": "^5.1.0",
-    "html-webpack-plugin": "^5.6.3",
-    "mini-css-extract-plugin": "^2.9.2",
-    "sass": "^1.86.1",
-    "sass-alias": "^2.0.1",
-    "sass-loader": "^16.0.5",
-    "ts-loader": "^9.5.2",
-    "typescript": "^5.8.2",
-    "webpack": "^5.98.0",
-    "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.1"
+    "@types/react": "19.1.11",
+    "typescript": "5.9.2"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   }
 }

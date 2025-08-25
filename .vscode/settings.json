@@ -1,9 +1,12 @@
 {
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
-        "*.html": "${basename}.ts,${basename}.scss"
+        "*.html": "${basename}.ts,${basename}.scss",
+        "*.tsx": "${basename}.module.scss"
     },
     "files.exclude": {
-        "**/node_modules": true
-    },
+        ".next": true,
+        "**/node_modules": true,
+        "next-env.d.ts": true
+    }
 }
