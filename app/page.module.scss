@@ -1,11 +1,9 @@
 @use "@/styles/utils";
-@use "@/styles/fonts/geist";
 
 .main {
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-family: 'Geist', 'Arial', sans-serif;
     inset: 0;
     justify-content: center;
     position: absolute;
@@ -51,10 +49,6 @@
 
         .link {
             text-decoration: none;
-
-            .icon {
-                height: 24px;
-            }
         }
     }
 }
