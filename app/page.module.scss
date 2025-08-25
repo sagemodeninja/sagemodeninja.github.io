@@ -1,0 +1,60 @@
+@use "@/styles/utils";
+@use "@/styles/fonts/geist";
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Geist', 'Arial', sans-serif;
+    inset: 0;
+    justify-content: center;
+    position: absolute;
+
+    .contact-container {
+        display: flex;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 400px;
+
+        .title {
+            align-items: center;
+            color: hsl(0, 0%, 10%);
+            display: flex;
+            font-size: 1em;
+            font-weight: 500;
+            gap: 0.3em;
+            width: max-content;
+
+            .icon {
+                clip-rule: evenodd;
+                fill: none;
+                fill-rule: evenodd;
+                stroke: #1858f7;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 2.8px;
+            }
+
+            .label {
+                @include utils.text-crop;
+            }
+        }
+    }
+
+    .socials {
+        display: flex;
+        gap: 8px;
+
+        .link {
+            text-decoration: none;
+
+            .icon {
+                height: 24px;
+            }
+        }
+    }
+}
