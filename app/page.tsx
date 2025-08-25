@@ -1,4 +1,5 @@
 import styles from "./page.module.scss";
+import Image from "next/image";
 
 export default function Page() {
     return (
@@ -25,13 +26,13 @@ export default function Page() {
                     </h1>
                     <div className={styles.socials}>
                         <a className={styles.link} href="https://github.com/sagemodeninja" target="_blank">
-                            <img className={styles.icon} src="/images/socials/github-mark.svg" alt="Socials - GitHub Icon" />
+                            <Image src="/images/socials/github-mark.svg" alt="Socials - GitHub" width={24} height={24} />
                         </a>
                         <a className={styles.link} href="https://www.linkedin.com/in/garyantier" target="_blank">
-                            <img className={styles.icon} src="/images/socials/LI-In-Bug.png" alt="Socials - LinkedIn" />
+                            <Image src="/images/socials/li-24.webp" alt="Socials - LinkedIn" width={28} height={24} />
                         </a>
                         <a className={styles.link} href="https://www.facebook.com/gary.antier.5" target="_blank">
-                            <img className={styles.icon} src="/images/socials/Facebook_Logo_Primary.png" alt="Socials - Facebook" />
+                            <Image src="/images/socials/fb-24.webp" alt="Socials - Facebook" width={24} height={24} />
                         </a>
                     </div>
                 </div>
