@@ -26,13 +26,13 @@ export default function Page() {
                     </h1>
                     <div className={styles.socials}>
                         <a className={styles.link} href="https://github.com/sagemodeninja" target="_blank">
-                            <Image src="/images/socials/github-mark.svg" alt="Socials - GitHub" width={24} height={24} />
+                            <Image src="/images/socials/gh-24-dark.webp" alt="Socials - GitHub" width={25} height={24} />
                         </a>
                         <a className={styles.link} href="https://www.linkedin.com/in/garyantier" target="_blank">
-                            <Image src="/images/socials/li-24.webp" alt="Socials - LinkedIn" width={28} height={24} />
+                            <Image src="/images/socials/li-24-dark.webp" alt="Socials - LinkedIn" width={26} height={24} />
                         </a>
                         <a className={styles.link} href="https://www.facebook.com/gary.antier.5" target="_blank">
-                            <Image src="/images/socials/fb-24.webp" alt="Socials - Facebook" width={24} height={24} />
+                            <Image src="/images/socials/fb-24-dark.webp" alt="Socials - Facebook" width={24} height={24} />
                         </a>
                     </div>
                 </div>
