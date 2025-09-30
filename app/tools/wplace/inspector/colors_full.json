@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Medium Gray",
+    "color": "#aaaaaa",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Red",
+    "color": "#a50e1e",
+    "type": "premium"
+  },
+  {
+    "name": "Light Red",
+    "color": "#fa8072",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Orange",
+    "color": "#e45c1a",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Goldenrod",
+    "color": "#9c8431",
+    "type": "premium"
+  },
+  {
+    "name": "Goldenrod",
+    "color": "#c5ad31",
+    "type": "premium"
+  },
+  {
+    "name": "Light Goldenrod",
+    "color": "#e8d45f",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Olive",
+    "color": "#4a6b3a",
+    "type": "premium"
+  },
+  {
+    "name": "Olive",
+    "color": "#5a944a",
+    "type": "premium"
+  },
+  {
+    "name": "Light Olive",
+    "color": "#84c573",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Cyan",
+    "color": "#0f799f",
+    "type": "premium"
+  },
+  {
+    "name": "Light Cyan",
+    "color": "#bbfaf2",
+    "type": "premium"
+  },
+  {
+    "name": "Light Blue",
+    "color": "#7dc7ff",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Indigo",
+    "color": "#4d31b8",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Slate Blue",
+    "color": "#4a4284",
+    "type": "premium"
+  },
+  {
+    "name": "Slate Blue",
+    "color": "#7a71c4",
+    "type": "premium"
+  },
+  {
+    "name": "Light Slate Blue",
+    "color": "#b5aef1",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Peach",
+    "color": "#9b5249",
+    "type": "premium"
+  },
+  {
+    "name": "Peach",
+    "color": "#d18078",
+    "type": "premium"
+  },
+  {
+    "name": "Light Peach",
+    "color": "#fab6a4",
+    "type": "premium"
+  },
+  {
+    "name": "Light Brown",
+    "color": "#dba463",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Tan",
+    "color": "#7b6352",
+    "type": "premium"
+  },
+  {
+    "name": "Tan",
+    "color": "#9c846b",
+    "type": "premium"
+  },
+  {
+    "name": "Light Tan",
+    "color": "#d6b594",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Beige",
+    "color": "#d18051",
+    "type": "premium"
+  },
+  {
+    "name": "Light Beige",
+    "color": "#ffc5a5",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Stone",
+    "color": "#6d643f",
+    "type": "premium"
+  },
+  {
+    "name": "Stone",
+    "color": "#948c6b",
+    "type": "premium"
+  },
+  {
+    "name": "Light Stone",
+    "color": "#cdc59e",
+    "type": "premium"
+  },
+  {
+    "name": "Dark Slate",
+    "color": "#333941",
+    "type": "premium"
+  },
+  {
+    "name": "Slate",
+    "color": "#6d758d",
+    "type": "premium"
+  },
+  {
+    "name": "Light Slate",
+    "color": "#b3b9d1",
+    "type": "premium"
+  },
+  {
+    "name": "Black",
+    "color": "#000000",
+    "type": "standard"
+  },
+  {
+    "name": "Dark Gray",
+    "color": "#3c3c3c",
+    "type": "standard"
+  },
+  {
+    "name": "Gray",
+    "color": "#787878",
+    "type": "standard"
+  },
+  {
+    "name": "Light Gray",
+    "color": "#d2d2d2",
+    "type": "standard"
+  },
+  {
+    "name": "White",
+    "color": "#ffffff",
+    "type": "standard"
+  },
+  {
+    "name": "Deep Red",
+    "color": "#600018",
+    "type": "standard"
+  },
+  {
+    "name": "Red",
+    "color": "#ed1c24",
+    "type": "standard"
+  },
+  {
+    "name": "Orange",
+    "color": "#ff7f27",
+    "type": "standard"
+  },
+  {
+    "name": "Gold",
+    "color": "#f6aa09",
+    "type": "standard"
+  },
+  {
+    "name": "Yellow",
+    "color": "#f9dd3b",
+    "type": "standard"
+  },
+  {
+    "name": "Light Yellow",
+    "color": "#fffabc",
+    "type": "standard"
+  },
+  {
+    "name": "Dark Green",
+    "color": "#0eb968",
+    "type": "standard"
+  },
+  {
+    "name": "Green",
+    "color": "#13e67b",
+    "type": "standard"
+  },
+  {
+    "name": "Light Green",
+    "color": "#87ff5e",
+    "type": "standard"
+  },
+  {
+    "name": "Dark Teal",
+    "color": "#0c816e",
+    "type": "standard"
+  },
+  {
+    "name": "Teal",
+    "color": "#10aea6",
+    "type": "standard"
+  },
+  {
+    "name": "Light Teal",
+    "color": "#13e1be",
+    "type": "standard"
+  },
+  {
+    "name": "Cyan",
+    "color": "#60f7f2",
+    "type": "standard"
+  },
+  {
+    "name": "Dark Blue",
+    "color": "#28509e",
+    "type": "standard"
+  },
+  {
+    "name": "Blue",
+    "color": "#4093e4",
+    "type": "standard"
+  },
+  {
+    "name": "Indigo",
+    "color": "#6b50f6",
+    "type": "standard"
+  },
+  {
+    "name": "Light Indigo",
+    "color": "#99b1fb",
+    "type": "standard"
+  },
+  {
+    "name": "Dark Purple",
+    "color": "#780c99",
+    "type": "standard"
+  },
+  {
+    "name": "Purple",
+    "color": "#aa38b9",
+    "type": "standard"
+  },
+  {
+    "name": "Light Purple",
+    "color": "#e09ff9",
+    "type": "standard"
+  },
+  {
+    "name": "Dark Pink",
+    "color": "#cb007a",
+    "type": "standard"
+  },
+  {
+    "name": "Pink",
+    "color": "#ec1f80",
+    "type": "standard"
+  },
+  {
+    "name": "Light Pink",
+    "color": "#f38da9",
+    "type": "standard"
+  },
+  {
+    "name": "Dark Brown",
+    "color": "#684634",
+    "type": "standard"
+  },
+  {
+    "name": "Brown",
+    "color": "#95682a",
+    "type": "standard"
+  },
+  {
+    "name": "Beige",
+    "color": "#f8b277",
+    "type": "standard"
+  }
+]
