@@ -1,0 +1,65 @@
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, inherit;
+    gap: 22px;
+    height: 100%;
+    justify-content: center;
+
+    .header {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        .name {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .year {
+            color: hsla(0deg 0% 100% / 30%);
+            font-size: 0.75rem;
+            margin: 0;
+        }
+    }
+
+    .body {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .details {
+            display: grid;
+            font-size: 0.75rem;
+            grid-template-columns: 95px 1fr;
+            gap: 12px;
+
+            .label {
+                text-align: end;
+                margin: 0;
+            }
+
+            .value {
+                color: hsla(0deg 0% 100% / 70%);
+                margin: 0;
+            }
+        }
+    }
+
+    .footer {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        p {
+            color: hsla(0deg 0% 40% / 80%);
+            font-size: 0.75rem;
+            margin: 0;
+        }
+    }
+}

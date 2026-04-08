@@ -1,54 +1,66 @@
 @use "@/styles/utils";
 
 .main {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    inset: 0;
-    justify-content: center;
-    position: absolute;
+    display: grid;
+    height: 100vh;
 
-    .contact-container {
-        display: flex;
-    }
-
-    .section {
+    .content {
+        align-items: center;
         display: flex;
         flex-direction: column;
-        gap: 12px;
-        width: 400px;
+        grid-area: 1 / 1;
+        inset: 0;
+        justify-content: center;
+        position: absolute;
 
-        .title {
-            align-items: center;
-            color: hsl(0, 0%, 90%);
+        .contact-container {
             display: flex;
-            font-size: 1em;
-            font-weight: 500;
-            gap: 0.3em;
-            width: max-content;
+        }
 
-            .icon {
-                clip-rule: evenodd;
-                fill: none;
-                fill-rule: evenodd;
-                stroke: #0071E3;
-                stroke-linecap: round;
-                stroke-linejoin: round;
-                stroke-width: 2.8px;
+        .section {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 400px;
+
+            .title {
+                align-items: center;
+                color: hsl(0, 0%, 90%);
+                display: flex;
+                font-size: 1em;
+                font-weight: 500;
+                gap: 0.3em;
+                width: max-content;
+
+                .icon {
+                    clip-rule: evenodd;
+                    fill: none;
+                    fill-rule: evenodd;
+                    stroke: #0071E3;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2.8px;
+                }
+
+                .label {
+                    @include utils.text-crop;
+                }
             }
+        }
 
-            .label {
-                @include utils.text-crop;
+        .socials {
+            display: flex;
+            gap: 8px;
+
+            .link {
+                text-decoration: none;
             }
         }
     }
 
-    .socials {
+    .portrait {
         display: flex;
-        gap: 8px;
-
-        .link {
-            text-decoration: none;
-        }
+        grid-area: 1 / 1;
+        justify-content: end;
     }
 }

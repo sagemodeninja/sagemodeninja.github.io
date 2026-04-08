@@ -1,0 +1,34 @@
+.base {
+    border-radius: 16px;
+    overflow: hidden;
+    position: fixed;
+
+    &::before {
+        background-color: hsl(240deg 2% 2% / 80%);
+        backdrop-filter: blur(20px);
+        border: solid 1px hsl(0deg 0% 20%);
+        border-radius: inherit;
+        content: "";
+        cursor: pointer;
+        inset: 0;
+        pointer-events: none;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        inset: 0;
+        position: absolute;
+        z-index: 1;
+
+        .titleBar {
+            padding: 10px;
+        }
+
+        .body {
+            flex: 1;
+        }
+    }
+}
