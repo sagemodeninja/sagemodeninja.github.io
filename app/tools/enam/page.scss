@@ -1,0 +1,167 @@
+body, html {
+    // background-color: #fff;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+
+    #dice {
+        align-items: center;
+        grid-template-columns: repeat(3, 32px);
+        grid-template-rows: repeat(3, 32px);
+        background-color: white;
+        border-radius: 16px;
+        display: grid;
+        gap: 12px;
+        justify-content: center;
+        padding: 48px;
+        grid-template-areas: 
+            "a1 a2 a3"
+            "b1 b2 b3"
+            "c1 c2 c3";
+
+        .dot {
+            background-color: black;
+            border-radius: 50%;
+            display: block;
+            height: 32px;
+            width: 32px;
+        }
+
+        &.face_1 {
+            background-color: #F63F3F;
+            
+            .dot {
+                background-color: #621919;
+
+                &:nth-child(1) {
+                    grid-area: b2;
+                }
+            }
+        }
+
+        &.face_2 {
+            background-color: #d88d36;
+            
+            .dot {
+                background-color: #563815;
+
+                &:nth-child(1) {
+                    grid-area: a1;
+                }
+
+                &:nth-child(2) {
+                    grid-area: c3;
+                }
+            }
+        }
+
+        &.face_3 {
+            background-color: #dad251;
+
+            .dot {
+                background-color: #575420;
+
+                &:nth-child(1) {
+                    grid-area: a1;
+                }
+
+                &:nth-child(2) {
+                    grid-area: b2;
+                }
+
+                &:nth-child(3) {
+                    grid-area: c3;
+                }
+            }
+        }
+
+        &.face_4 {
+            background-color: #8ACD59;
+
+            .dot {
+                background-color: #375223;
+
+                &:nth-child(1) {
+                    grid-area: a1;
+                }
+
+                &:nth-child(2) {
+                    grid-area: a3;
+                }
+
+                &:nth-child(3) {
+                    grid-area: c1;
+                }
+
+                &:nth-child(4) {
+                    grid-area: c3;
+                }
+            }
+    }
+
+        &.face_5 {
+            background-color: #59B3CD;
+
+            .dot {
+                background-color: #234752;
+
+                &:nth-child(1) {
+                    grid-area: a1;
+                }
+
+                &:nth-child(2) {
+                    grid-area: a3;
+                }
+
+                &:nth-child(3) {
+                    grid-area: b2;
+                }
+
+                &:nth-child(4) {
+                    grid-area: c1;
+                }
+
+                &:nth-child(5) {
+                    grid-area: c3;
+                }
+            }
+        }
+
+        &.face_6 {
+            background-color: #8C64BD;
+
+            .dot {
+                background-color: #38284B;
+
+                &:nth-child(1) {
+                    grid-area: a1;
+                }
+
+                &:nth-child(2) {
+                    grid-area: a3;
+                }
+
+                &:nth-child(3) {
+                    grid-area: b1;
+                }
+
+                &:nth-child(4) {
+                    grid-area: b3;
+                }
+
+                &:nth-child(5) {
+                    grid-area: c1;
+                }
+
+                &:nth-child(6) {
+                    grid-area: c3;
+                }
+            }
+        }
+    }
+}
