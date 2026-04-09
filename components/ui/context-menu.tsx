@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
-import styles from "./context-menu.module.scss";
 import VibrantSurface from "./vibrant-surface";
+import styles from "./context-menu.module.scss";
 
 export type ContextMenuItem = {
     icon?: React.ReactNode;
@@ -21,7 +21,7 @@ const ContextMenu = forwardRef<HTMLDivElement, ContextMenuProps>(({
 }, ref) => (
     <VibrantSurface
         ref={ref}
-        radius={10}
+        radius={12}
         style={style}
         className={styles.menu}
     >

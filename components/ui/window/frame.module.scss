@@ -1,0 +1,23 @@
+.base {
+    display: flex;
+    position: absolute;
+    z-index: 100;
+
+    &::before {
+        border-radius: 16px;
+        box-shadow:
+            0 12px 32px 8px hsla(0deg 0% 0% / 40%),
+            0 5px 24px hsla(0deg 0% 0% / 30%);
+        content: "";
+        inset: 2px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .frame {
+        background-color: transparent;
+        border: none;
+        inset: 1px;
+        position: absolute;
+    }
+}

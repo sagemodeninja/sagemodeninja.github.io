@@ -1,0 +1,67 @@
+@use "@/styles/utils";
+
+.main {
+    display: grid;
+    height: 100%;
+    width: 100%;
+
+    .content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        grid-area: 1 / 1;
+        inset: 0;
+        justify-content: center;
+        position: absolute;
+
+        .contact-container {
+            display: flex;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 400px;
+
+            .title {
+                align-items: center;
+                color: hsl(0, 0%, 90%);
+                display: flex;
+                font-size: 1em;
+                font-weight: 500;
+                gap: 0.3em;
+                width: max-content;
+
+                .icon {
+                    clip-rule: evenodd;
+                    fill: none;
+                    fill-rule: evenodd;
+                    stroke: #0071E3;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2.8px;
+                }
+
+                .label {
+                    @include utils.text-crop;
+                }
+            }
+        }
+
+        .socials {
+            display: flex;
+            gap: 8px;
+
+            .link {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .portrait {
+        display: flex;
+        grid-area: 1 / 1;
+        justify-content: end;
+    }
+}

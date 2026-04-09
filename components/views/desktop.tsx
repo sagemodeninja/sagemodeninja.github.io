@@ -5,6 +5,7 @@ import styles from "./desktop.module.scss";
 import Dock from "@/ui/dock";
 import { useState } from "react";
 import AboutMe from "./about-me";
+import Contacts from "./contacts";
 
 type DesktopProps = {
     children: React.ReactNode;
@@ -13,11 +14,16 @@ type DesktopProps = {
 export default function Desktop({
     children
 }: DesktopProps) {
-    const [aboutMeShown, setAboutMeShown] = useState(true);
+    const [aboutMeShown, setAboutMeShown] = useState(false);
 
     const handleMenu = (selected: string) => {
-        if (selected === "about_me") {
-            setAboutMeShown(true);
+        switch (selected) {
+            case "about_me":
+                setAboutMeShown(true);
+                break;
+            case "immersive_mode":
+                document.documentElement.requestFullscreen();
+                break;
         }
     }
 
@@ -30,6 +36,7 @@ export default function Desktop({
                     shown={aboutMeShown}
                     onClose={() => setAboutMeShown(false)}
                 />
+                <Contacts />
             </div>
             {/* <Dock /> */}
         </div>
