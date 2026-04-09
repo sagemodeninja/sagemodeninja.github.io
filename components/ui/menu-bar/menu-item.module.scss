@@ -1,0 +1,16 @@
+.menuItem {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    padding: 4px 16px;
+
+    &:active, &.active {
+        backdrop-filter: blur(20px);
+        background-color: hsla(0, 0%, 10%, 0.1);
+    }
+}

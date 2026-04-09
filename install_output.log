@@ -1,0 +1,162 @@
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer storybook@"^8.6.0" from @storybook/addon-a11y@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/addon-a11y
+npm warn   dev @storybook/addon-a11y@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"^8.6.0" from @storybook/addon-a11y@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/addon-a11y
+npm warn   dev @storybook/addon-a11y@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer storybook@"^8.6.0" from @storybook/addon-essentials@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/addon-essentials
+npm warn   dev @storybook/addon-essentials@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"^8.6.0" from @storybook/addon-essentials@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/addon-essentials
+npm warn   dev @storybook/addon-essentials@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer storybook@"^8.6.0" from @storybook/addon-interactions@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/addon-interactions
+npm warn   dev @storybook/addon-interactions@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"^8.6.0" from @storybook/addon-interactions@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/addon-interactions
+npm warn   dev @storybook/addon-interactions@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer storybook@"^8.6.0" from @storybook/blocks@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/blocks
+npm warn   dev @storybook/blocks@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"^8.6.0" from @storybook/blocks@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/blocks
+npm warn   dev @storybook/blocks@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer storybook@"^8.6.0" from @storybook/react@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/react
+npm warn   dev @storybook/react@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"^8.6.0" from @storybook/react@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/react
+npm warn   dev @storybook/react@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer storybook@"^8.6.0" from @storybook/react-webpack5@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/react-webpack5
+npm warn   dev @storybook/react-webpack5@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"^8.6.0" from @storybook/react-webpack5@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/react-webpack5
+npm warn   dev @storybook/react-webpack5@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer storybook@"^8.6.0" from @storybook/test@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/test
+npm warn   dev @storybook/test@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn   3 more (@storybook/addon-a11y, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"^8.6.0" from @storybook/test@8.6.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/test
+npm warn   dev @storybook/test@"8.6.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn   3 more (@storybook/addon-a11y, ...)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer storybook@"^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0" from @storybook/test-runner@0.21.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/test-runner
+npm warn   dev @storybook/test-runner@"0.21.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer storybook@"^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0" from @storybook/test-runner@0.21.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/@storybook/test-runner
+npm warn   dev @storybook/test-runner@"0.21.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer webpack@">=5.61.0" from babel-loader@10.0.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/babel-loader
+npm warn   dev babel-loader@"10.0.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer webpack@">=5.61.0" from babel-loader@10.0.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/babel-loader
+npm warn   dev babel-loader@"10.0.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer webpack@"^5.0.0" from mini-css-extract-plugin@2.4.4
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/mini-css-extract-plugin
+npm warn   dev mini-css-extract-plugin@"2.4.4" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer webpack@"^5.0.0" from mini-css-extract-plugin@2.4.4
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/mini-css-extract-plugin
+npm warn   dev mini-css-extract-plugin@"2.4.4" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer webpack@"^5.72.1" from source-map-loader@5.0.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/source-map-loader
+npm warn   dev source-map-loader@"5.0.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer webpack@"^5.72.1" from source-map-loader@5.0.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/source-map-loader
+npm warn   dev source-map-loader@"5.0.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer webpack@"^5.27.0" from style-loader@4.0.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/style-loader
+npm warn   dev style-loader@"4.0.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer webpack@"^5.27.0" from style-loader@4.0.0
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/style-loader
+npm warn   dev style-loader@"4.0.0" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: next@15.5.0
+npm warn Found: peer webpack@"^5.1.0" from terser-webpack-plugin@5.3.9
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/terser-webpack-plugin
+npm warn   dev terser-webpack-plugin@"5.3.9" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer webpack@"^5.1.0" from terser-webpack-plugin@5.3.9
+npm warn node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next/node_modules/terser-webpack-plugin
+npm warn   dev terser-webpack-plugin@"5.3.9" from next@15.5.0
+npm warn   node_modules/.pnpm/next@15.5.0_react-dom@19.1.1_react@19.1.1__react@19.1.1_sass@1.86.1/node_modules/next
+npm warn ERESOLVE overriding peer dependency
+npm warn ERESOLVE overriding peer dependency
+npm error Cannot read properties of null (reading 'isDescendantOf')
+npm error A complete log of this run can be found in: /Users/garyantier/.npm/_logs/2026-04-08T04_03_14_622Z-debug-0.log
