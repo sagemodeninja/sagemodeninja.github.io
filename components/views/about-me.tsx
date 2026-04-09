@@ -1,24 +1,40 @@
-import DesktopWindow from "@/ui/window";
+"use client";
+
 import Image from "next/image";
-import styles from "./index.module.scss";
+import DesktopWindow from "@/ui/window/window";
+import styles from "./about-me.module.scss";
+import { useEffect, useState } from "react";
 
-export default function AboutMe() {
+type AboutMeProps = {
+    shown: boolean;
+    onClose: () => void;
+}
+
+export default function AboutMe({
+    shown,
+    onClose
+}: AboutMeProps) {
     const yearNow = new Date().getFullYear();
+    const [rect, setRect] = useState<DOMRect>();
 
-    return (
+    useEffect(() => {
+        setRect(new DOMRect(200, 200, 300, 450));
+    }, []);
+
+    return (shown &&
         <DesktopWindow
-            top={200}
-            left={200}
-            width={300}
-            height={450}
+            bounds={rect}
+            onBlur={onClose}
         >
             <div className={styles.content}>
-                <Image
-                    src="/images/avatar@150.png"
-                    alt="Gary Antier"
-                    width={221}
-                    height={150}
-                />
+                <div className={styles.avatar}>
+                    <Image
+                        src="/images/me.webp"
+                        alt="Gary Antier"
+                        width={157}
+                        height={150}
+                    />
+                </div>
 
                 <div className={styles.header}>
                     <p className={styles.name}>Gary Antier</p>

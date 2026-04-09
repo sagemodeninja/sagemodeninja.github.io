@@ -1,0 +1,22 @@
+.surface {
+    backdrop-filter: blur(20px);
+    background-color: hsl(240deg 2% 2% / 80%);
+    overflow: hidden;
+    position: relative;
+
+    .content {
+        display: contents;
+        inset: 1px;
+        position: absolute;
+        z-index: 1;
+
+        &::before {
+            border: solid 1px hsla(0deg 0% 100% / 20%);
+            border-radius: inherit;
+            content: "";
+            inset: 1px;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+}

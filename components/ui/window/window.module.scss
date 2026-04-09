@@ -1,0 +1,23 @@
+.base {
+    box-shadow:
+        0 12px 32px 8px hsla(0deg 0% 0% / 40%),
+        0 5px 24px hsla(0deg 0% 0% / 30%);
+    outline: none;
+    position: absolute;
+    user-select: none;
+    z-index: 100;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        .titleBar {
+            padding: 10px;
+        }
+
+        .body {
+            flex: 1;
+        }
+    }
+}

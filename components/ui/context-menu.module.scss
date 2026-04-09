@@ -1,0 +1,43 @@
+.menu {
+    bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    width: 200px;
+    z-index: 200;
+
+    .item {
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        gap: 8px;
+        padding: 6px 12px;
+        text-align: left;
+
+        .icon {
+            $size: 11px;
+
+            align-items: center;
+            color: hsla(0deg 0% 100% / 0.75);
+            display: flex;
+            height: $size;
+            justify-content: center;
+            width: $size;
+        }
+
+        .label {
+            font-size: 0.8125rem;
+            font-weight: 300;
+            line-height: 14px;
+        }
+
+        &:hover {
+            background-color: hsla(210deg 100% 45% / 80%);
+        }
+    }
+}

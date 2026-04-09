@@ -1,0 +1,19 @@
+.dock {
+    border-radius: 14px;
+    bottom: 4px;
+    height: 56px;
+    width: 400px;
+    position: fixed;
+    z-index: 200;
+
+    &::before {
+        background-color: hsl(240deg 2% 2% / 80%);
+        backdrop-filter: blur(20px);
+        border: solid 1px hsl(0deg 0% 20%);
+        border-radius: inherit;
+        content: "";
+        inset: 0;
+        position: absolute;
+        z-index: -1;
+    }
+}
